@@ -2,9 +2,9 @@ import {dir} from "i18next";
 import { languages } from "../i18n/settings";
 import "app/globals.css";
 
-type Params= {
-  params: {lng: any}
-}
+// type Params= {
+//   params: {lng: any}
+// }
 // const languages = ["en", "ar"];
 
 export async function generateStaticParams() {

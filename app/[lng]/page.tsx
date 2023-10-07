@@ -1,15 +1,15 @@
 import Link from "next/link"
-import Image from "next/image"
+// import Image from "next/image"
 import { useTranslation } from "../i18n"
-import HomeBg from "../../public/assets/images/homeBg.jpg";
-import Button from "../../public/assets/images/button.png";
+// import HomeBg from "../../public/assets/images/homeBg.jpg";
+// import Button from "../../public/assets/images/button.png";
 
 type Props = {
   params: { lng: string }
 }
 
 export default async function page({ params: { lng } }: Props) {
-  const { t } = await useTranslation(lng, "translations")
+  // const { t } = await useTranslation(lng, "translations")
   return (
     <div className="">
       <div className="relative z-0 bg-cover bg-center h-[1261px]" style={{ backgroundImage: "url('/assets/images/homeBg.jpg')" }}>

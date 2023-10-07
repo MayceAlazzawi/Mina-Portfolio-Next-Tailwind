@@ -3,19 +3,19 @@ import resourcesToBackend from 'i18next-resources-to-backend'
 import { initReactI18next } from 'react-i18next/initReactI18next'
 import { getOptions } from './settings'
 
-const initI18next = async (lng:any, ns:any) => {
+const initI18next = async (lng:any, ns:any) => { // eslint-disable-line
   const i18nInstance = createInstance()
   await i18nInstance
     .use(initReactI18next)
-    .use(resourcesToBackend((language:any, namespace:any) => import(`./locales/${language}/${namespace}.json`)))
+    .use(resourcesToBackend((language:any, namespace:any) => import(`./locales/${language}/${namespace}.json`)))// eslint-disable-line
     .init(getOptions(lng, ns))
   return i18nInstance
 }
 
-export async function useTranslation(lng:any, ns?:any, options?:any) {
-  const i18nextInstance = await initI18next(lng, ns)
+export async function useTranslation(lng:any, ns?:any, options?:any) {// eslint-disable-line
+  const i18nextInstance = await initI18next(lng, ns)// eslint-disable-line
   return {
-    t: i18nextInstance.getFixedT(lng, Array.isArray(ns) ? ns[0] : ns, options?.keyPrefix),
+    t: i18nextInstance.getFixedT(lng, Array.isArray(ns) ? ns[0] : ns, options?.keyPrefix),// eslint-disable-line
     i18n: i18nextInstance
   }
 }
