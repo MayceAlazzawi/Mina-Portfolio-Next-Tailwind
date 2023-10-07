@@ -1,14 +1,14 @@
 import Link from "next/link"
 // import Image from "next/image"
-import { useTranslation } from "../i18n"
+// import { useTranslation } from "../i18n"
 // import HomeBg from "../../public/assets/images/homeBg.jpg";
 // import Button from "../../public/assets/images/button.png";
 
-type Props = {
-  params: { lng: string }
-}
-
-export default async function page({ params: { lng } }: Props) {
+// type Props = {
+//   params: { lng: string }
+// }
+// { params: { lng } }: Props
+export default async function page() {
   // const { t } = await useTranslation(lng, "translations")
   return (
     <div className="">
