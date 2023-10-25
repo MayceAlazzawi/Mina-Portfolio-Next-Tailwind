@@ -1,12 +1,11 @@
 import Link from "next/link";
-import Image from "next/image";
-import { useTranslation } from "../../i18n";
-import Workshops from "../../../public/assets/svg/workshops.svg";
-type Props = {
-  params: { lng: string };
-};
-export default async function page({ params: { lng } }: Props) {
-  const { t } = await useTranslation(lng, "translations");
+// import { useTranslation } from "../../i18n";
+// type Props = {
+//   params: { lng: string };
+// };
+// { params: { lng } }: Props
+export default async function page() {
+//   const { t } = await useTranslation(lng, "translations");
   return (
     <>
       <section

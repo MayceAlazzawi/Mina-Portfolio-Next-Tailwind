@@ -1,5 +1,4 @@
 import Link from "next/link";
-import Image from "next/image"
 // import { useTranslation } from "../i18n"
 // import HomeBg from "../../public/assets/images/homeBg.jpg";
 // import Button from "../../public/assets/images/button.png";
