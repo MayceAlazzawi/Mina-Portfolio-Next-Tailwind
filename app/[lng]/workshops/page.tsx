@@ -22,11 +22,11 @@ export default function s() {
         <div className="right onthetop z-10
          absolute bg-transparent pr-6 h-full w-1/2 top-0 pt-4">
           <Image src="/assets/svg/wheelBuilding.svg" height={500} width={100} alt="" className='' />
-          <Image src="/assets/svg/text2.svg" height={172} width={152} alt="" className='mt-5' />
+          <Image src="/assets/svg/text2.svg" height={172} width={152} alt="" className='my-5' />
           <RegisterHere />
         </div>
         <div className="left relative ontheback h-full w-3/3 z-0">
-          <Image src="/assets/svg/wheel.svg" height={453} width={232} alt="" className='absolute h-full left-0 w-5/6' />
+          <Image src="/assets/svg/wheel.svg" height={453} width={232} alt="" className='absolute h-full left-0 w-2/3' />
         </div>
       </div>
     </div>
