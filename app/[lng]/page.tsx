@@ -30,12 +30,10 @@ export default async function page() {
         className="h-full w-full bg-white"
       >
         <div className="absolute top-[580px] bg-transparent w-60 right-[30px] h-60 text-3xl text-white z-3">
-       sad
+       
         </div>
 
       </Link>
-    
-
     </section>
   );
 }
