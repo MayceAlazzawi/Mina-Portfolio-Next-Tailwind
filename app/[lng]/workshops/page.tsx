@@ -6,7 +6,7 @@ type Props = {
 }
 export default function workshops({ params: { lng } }: Props) {
   return (
-    <div className="h-screen sm:h-full bg-[#FCD2D1]">
+    <div className="h-[900px] sm:h-full bg-[#FCD2D1]">
       <Link href={`/${lng}`}>
         <Image
           src="/assets/svg/arrow.svg"
