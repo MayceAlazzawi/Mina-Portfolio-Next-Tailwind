@@ -13,7 +13,7 @@ export default function workshops({ params: { lng } }: Props) {
           height={10}
           width={100}
           alt=""
-          className="absolute left-0"
+          className="hidden lg:block absolute left-0"
         />
       </Link>
       <div className="top relative h-2/5 pt-10 sm:hidden">
