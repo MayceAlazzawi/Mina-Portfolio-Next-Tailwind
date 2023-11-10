@@ -10,30 +10,33 @@ import Link from "next/link";
 export default async function page() {
   // const { t } = await useTranslation(lng, "translations")
   return (
-    <section className="h-screen bg-black">
-      <div
-        className="relative z-0 bg-cover bg-center h-[1261px]"
-        style={{ backgroundImage: "url('/assets/images/homeBg.png')" }}
-      >
-        {/* Content goes herefddgfdg */}
-        <Link
-          href="/second-page"
-          className="absolute top-[425px] right-[70px] text-3xl text-white z-3"
-        >
-          يلا !
-        </Link>
-      </div>
-
-      {/* Content goes herefddgfdg */}
-      <Link
-        href="/workshops"
-        className="h-full w-full bg-white"
-      >
-        <div className="absolute top-[580px] bg-transparent w-60 right-[30px] h-60 text-3xl text-white z-3">
-       
-        </div>
-
-      </Link>
-    </section>
+    <div className="hidden md:block relative h-[1117px] w-[1728px]" style={{ backgroundImage: "url('/assets/svg/md/bgMd.svg')" }}>
+      <Link href="/workshops" className="absolute bottom-12 right-28 h-[315px] w-[350px]"></Link>
+      <Link href="/InteriorDesign" className="absolute bottom-8 right-[800px] h-[315px] w-[350px]"></Link>
+    </div>
   );
 }
+
+
+    //  {/* <div
+    //     className="relative z-0 bg-cover bg-center h-[1261px]"
+    //     style={{ backgroundImage: "url('/assets/svg/md/bgMd.svg')" }}
+    //   >
+    //     {/* Content goes herefddgfdg
+    //     <Link
+    //       href="/second-page"
+    //       className="absolute top-[425px] right-[70px] text-3xl text-white z-3"
+    //     >
+    //       يلا !
+    //     </Link> */}
+
+    //       {/* Content goes here*/}
+    //       <Link
+    //       href="/workshops"
+    //       className="h-full w-full bg-white"
+    //     >
+    //       <div className="absolute top-[580px] bg-transparent w-[450px] right-[30px] h-[500px] text-3xl text-white z-3">
+         
+    //       </div>
+    //     </Link>
+    //     </div> */}

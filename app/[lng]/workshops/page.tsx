@@ -1,8 +1,21 @@
 import Image from "next/image";
 import Link from "next/link";
-export default function workshops() {
+
+type Props = {
+  params: { lng: string }
+}
+export default function workshops({ params: { lng } }: Props) {
   return (
     <div className="h-screen sm:h-full bg-[#FCD2D1]">
+      <Link href={`/${lng}`}>
+        <Image
+          src="/assets/svg/arrow.svg"
+          height={10}
+          width={100}
+          alt=""
+          className="absolute left-0"
+        />
+      </Link>
       <div className="top relative h-2/5 pt-10 sm:hidden">
         <div className="left relative ontheback h-full w- z-0">
           <Image
