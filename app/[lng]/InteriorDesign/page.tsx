@@ -5,7 +5,7 @@ type Props = {
     params: { lng: string }
 }
 export default async function page({ params: { lng } }: Props) {
-    const { t } = await useTranslation(lng, "translations")
+    // const { t } = await useTranslation(lng, "translations")
     return (
         <>
             <div className="h-screen bg-[#FFD576]">
