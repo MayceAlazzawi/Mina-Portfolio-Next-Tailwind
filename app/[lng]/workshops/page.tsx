@@ -1,4 +1,5 @@
 import Image from "next/image";
+import Link from "next/link";
 export default function s() {
   return (
     <div className="h-screen sm:h-full bg-[#FCD2D1]">
@@ -27,16 +28,18 @@ export default function s() {
             alt=""
             className="mt-5"
           />
-          <div className='registerBtn relative'>
-            <Image
-              src="/assets/images/btn2.png"
-              alt=""
-              height={251}
-              width={125}
-              className="cursor-pointer text-center mt-6"
-            />
-            <h1 className='cairo absolute top-[23%] right-[20px] text-xl text-white font-bold'>سجل هنا</h1>
-          </div>
+          <Link href="https://airtable.com/appioMft3okdtHit4/shrmUybPqKMncCItz" target="_blank">
+            <div className='registerBtn relative'>
+              <Image
+                src="/assets/images/btn2.png"
+                alt=""
+                height={251}
+                width={125}
+                className="cursor-pointer text-center mt-6"
+              />
+              <h1 className='cairo absolute top-[23%] right-[20px] text-xl text-white font-bold'>سجل هنا</h1>
+            </div>
+          </Link>
         </div>
       </div>
 
@@ -60,7 +63,7 @@ export default function s() {
             height={500}
             width={100}
             alt=""
-            className=""
+            className="w-full"
           />
           <Image
             src="/assets/svg/text2.svg"
@@ -69,16 +72,18 @@ export default function s() {
             alt=""
             className="my-5"
           />
+          <Link href="https://airtable.com/appioMft3okdtHit4/shrpqDeazEFmxITsR" target="_blank">
             <div className='registerBtn relative'>
-            <Image
-              src="/assets/images/btn2.png"
-              alt=""
-              height={251}
-              width={125}
-              className="cursor-pointer text-center mt-6"
-            />
-            <h1 className='cairo absolute top-[23%] right-[20px] text-xl text-white font-bold'>سجل هنا</h1>
-          </div>
+              <Image
+                src="/assets/images/btn2.png"
+                alt=""
+                height={251}
+                width={125}
+                className="cursor-pointer text-center mt-6"
+              />
+              <h1 className='cairo absolute top-[23%] right-[20px] text-xl text-white font-bold'>سجل هنا</h1>
+            </div>
+          </Link>
         </div>
         <div className="left relative ontheback h-full w-3/3 z-0">
           <Image
@@ -91,7 +96,7 @@ export default function s() {
         </div>
       </div>
 
-    
+
       <div className="hidden md sm:grid bg-[#FCD2D1] px-10 lg:px-40 pt-2 pb-10">
         <div className="1">
           <Image
@@ -125,14 +130,18 @@ export default function s() {
 
           </div>
           <div className='relative'>
-            <Image
-              src="/assets/images/btn2.png"
-              alt=""
-              height={271}
-              width={176}
-              className="cursor-pointer text-center mt-6"
-            />
-            <h1 className='cairo absolute top-[45%] w-full right-[20%] text-3xl text-white font-bold'>سجل هنا</h1>
+            <Link href="https://airtable.com/appioMft3okdtHit4/shrmUybPqKMncCItz" target="_blank">
+
+              <Image
+                src="/assets/images/btn2.png"
+                alt=""
+                height={271}
+                width={176}
+                className="cursor-pointer text-center mt-6"
+              />
+              <h1 className='cairo absolute top-[45%] w-full right-[20%] text-3xl text-white font-bold'>سجل هنا</h1>
+            </Link>
+
           </div>
         </div>
         <div className="5 divider col-span-3 col-start-1 row-start-2">
@@ -174,18 +183,17 @@ export default function s() {
               />
             </div>
           </div>
-          {/* <Link href="#" target="_blank" className="cursor-pointer text-center mt-10 col-span-2 row-start-3 place-items-center rounded-full text-white w-1/2 bg-[#4b8692] font-bold text-2xl py-1">
-              سجل هنا 
-          </Link> */}
           <div className='relative'>
-            <Image
-              src="/assets/images/btn2.png"
-              alt=""
-              height={271}
-              width={176}
-              className="cursor-pointer text-center mt-6"
-            />
-            <h1 className='cairo absolute top-[45%] w-full right-[20%] text-3xl text-white font-bold'>سجل هنا</h1>
+            <Link href="https://airtable.com/appioMft3okdtHit4/shrpqDeazEFmxITsR" target="_blank">
+              <Image
+                src="/assets/images/btn2.png"
+                alt=""
+                height={271}
+                width={176}
+                className="cursor-pointer text-center mt-6"
+              />
+              <h1 className='cairo absolute top-[45%] w-full right-[20%] text-3xl text-white font-bold'>سجل هنا</h1>
+            </Link>
           </div>
         </div>
       </div>
