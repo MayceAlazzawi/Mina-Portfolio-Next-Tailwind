@@ -1,6 +1,6 @@
 import Image from "next/image";
 import Link from "next/link";
-export default function s() {
+export default function workshops() {
   return (
     <div className="h-screen sm:h-full bg-[#FCD2D1]">
       <div className="top relative h-2/5 pt-10 sm:hidden">
