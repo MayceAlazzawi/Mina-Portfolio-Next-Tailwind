@@ -28,7 +28,17 @@ export default function s() {
             alt=""
             className="mt-5"
           />
-          <RegisterHere />
+          {/* <RegisterHere /> */}
+          <div className='relative'>
+            <Image
+              src="/assets/images/btn2.png"
+              alt=""
+              height={251}
+              width={125}
+              className="cursor-pointer text-center mt-6"
+            />
+            <h1 className='cairo absolute top-[23%] right-[20px] text-xl text-white font-bold'>سجل هنا</h1>
+          </div>
         </div>
       </div>
 
@@ -61,7 +71,16 @@ export default function s() {
             alt=""
             className="my-5"
           />
-          <RegisterHere />
+            <div className='relative'>
+            <Image
+              src="/assets/images/btn2.png"
+              alt=""
+              height={251}
+              width={125}
+              className="cursor-pointer text-center mt-6"
+            />
+            <h1 className='cairo absolute top-[23%] right-[20px] text-xl text-white font-bold'>سجل هنا</h1>
+          </div>
         </div>
         <div className="left relative ontheback h-full w-3/3 z-0">
           <Image
@@ -74,83 +93,7 @@ export default function s() {
         </div>
       </div>
 
-      {/* md */}
-      {/* <div className="hidden sm:flex justify-around items-center h-screen pt-10">
-        <div className="one flex flex-col w-1/2 pl-10 flex-col items-center justify-around bg- h-screen">
-          <div className="w-full h-1/3 relative mb-[100px]">
-            <Image
-              src="/assets/svg/md/handBuilding.svg"
-              height={0}
-              width={0}
-              alt=""
-              className="w-full h-full z-0"
-            />
-            <div className="bywheel top-[235px] pr-[10px] absolute z-10 top-[65%]">
-              <Image
-                src="/assets/svg/md/byHand.svg"
-                height={78}
-                width={245}
-                alt="w-full h-full"
-              />
-              <div className="text2 mt-4 pr-[40px]">
-                <Image
-                  src="/assets/svg/md/text1.svg"
-                  height={571}
-                  width={401}
-                  alt="w-full h-full mt-[4px]"
-                />
-              </div>
-            </div>
-          </div>
-          <div className="button bottom-0 m-8 text-center">
-            <button>button</button>
-          </div>
-        </div>
-
-        <div className="divider h-full">
-          <Image
-            src="/assets/svg/md/divider.svg"
-            height={1002}
-            width={10}
-            alt=""
-            className="h-full"
-          />
-        </div>
-
-        <div className="two flex flex-col w-1/2 pl-10 flex-col items-center justify-around bg- h-screen">
-          <div className="w-full h-1/3 relative mb-[100px]">
-            <Image
-              src="/assets/svg/md/wheel.svg"
-              height={1}
-              width={1}
-              alt=""
-              className="w-full h-full z-0"
-            />
-            <div className="bywheel top-[235px] pr-[20px] absolute z-10 top-[80%]">
-              <Image
-                src="/assets/svg/md/buildingWheel.svg"
-                height={78}
-                width={245}
-                alt="w-full h-full"
-              />
-              <div className="text2 mt-4 pr-[40px]">
-                <Image
-                  src="/assets/svg/md/text1.svg"
-                  height={571}
-                  width={401}
-                  alt="w-full h-full mt-[4px]"
-                />
-              </div>
-            </div>
-          </div>
-
-          <div className="button text-center">
-            <button>button</button>
-          </div>
-        </div>
-
-      </div> */}
-
+    
       <div className="hidden md sm:grid bg-[#FCD2D1] px-10 lg:px-40 pt-2 pb-10">
         <div className="1">
           <Image
