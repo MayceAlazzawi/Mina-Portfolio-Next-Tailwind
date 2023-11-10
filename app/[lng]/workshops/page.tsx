@@ -28,8 +28,7 @@ export default function s() {
             alt=""
             className="mt-5"
           />
-          {/* <RegisterHere /> */}
-          <div className='relative'>
+          <div className='registerBtn relative'>
             <Image
               src="/assets/images/btn2.png"
               alt=""
@@ -71,7 +70,7 @@ export default function s() {
             alt=""
             className="my-5"
           />
-            <div className='relative'>
+            <div className='registerBtn relative'>
             <Image
               src="/assets/images/btn2.png"
               alt=""
