@@ -1,6 +1,6 @@
 import Link from "next/link";
 import Image from "next/image";
-import { useTranslation } from '../../i18n'
+// import { useTranslation } from '../../i18n'
 type Props = {
     params: { lng: string }
 }
