@@ -1,5 +1,4 @@
 import Image from "next/image";
-import RegisterHere from "@/components/RegisterHere";
 export default function s() {
   return (
     <div className="h-screen sm:h-full bg-[#FCD2D1]">
