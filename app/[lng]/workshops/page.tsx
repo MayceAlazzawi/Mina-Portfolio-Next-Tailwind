@@ -210,6 +210,20 @@ export default function workshops({ params: { lng } }: Props) {
           </div>
         </div>
       </div>
+      <div className="absolute w-full py-5 text-center bg-[#f5c6c1]">
+      <p className="text-gray-500">
+        A project by{" "}
+        <a
+          className="font-semibold text-gray-600 underline-offset-4 transition-colors hover:underline"
+          href="https://www.imayce.com"
+          target="_blank"
+          rel="noopener noreferrer"
+        >
+          MAYS AL-AZZAWI
+        </a>
+      </p>
+     
+    </div>
     </div>
   );
 }
