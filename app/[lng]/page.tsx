@@ -13,7 +13,7 @@ export default async function page() {
     <>
       <div
         className="lg:hidden relative z-0 bg-cover bg-center h-[1261px] md:h-[2379px]"
-        style={{ backgroundImage: "url('/assets/images/homeBg.png')" }}
+        style={{ backgroundImage: "url('/assets/svg/homeBg.svg')" }}
       >
         <Link
           href="/workshops"
@@ -27,7 +27,7 @@ export default async function page() {
 
       <div
         className="hidden lg:block relative h-[1117px] w-[1728px]"
-        style={{ backgroundImage: "url('/assets/svg/md/bgMd.svg')" }}
+        style={{ backgroundImage: "url('/assets/svg/md/homeMd.svg')" }}
       >
         <Link
           href="/workshops"
