@@ -15,7 +15,7 @@ export default async function page() {
         className="lg:hidden relative z-0 bg-cover bg-center h-[1261px] md:h-[2379px]"
         style={{ backgroundImage: "url('/assets/images/two.png')" }}
       >
-        <Link href="#workshops" className="absolute top-[430px] text-2xl text-white font-semibold right-[40px]">كـمل مـن هـنا</Link>
+        <Link href="#workshops" className="absolute top-[430px] text-xl text-white font-semibold right-[40px]">كـمل مـن هـنا</Link>
         <Link
         id="workshops"
           href="/workshops"
