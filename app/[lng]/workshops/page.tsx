@@ -118,7 +118,7 @@ export default function workshops({ params: { lng } }: Props) {
             height={30}
             width={40}
             className="w-full h-full pt-10"
-          />
+          />  
         </div>
         <div className="2 col-span-2 flex justify-center items-center flex-col">
           <div className="grid gap-10 pt-14 lg:pt-22">
@@ -179,7 +179,7 @@ export default function workshops({ params: { lng } }: Props) {
           <div className="grid gap-10 lg:pt-22">
             <div className="col-2">
               <Image
-                src="/assets/svg/md/buildingwheel.svg"
+                src="/assets/svg/md/two.svg"
                 alt=""
                 height={30}
                 width={40}
