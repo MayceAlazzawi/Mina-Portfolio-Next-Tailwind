@@ -17,7 +17,7 @@ export default async function page() {
       >
         <Link href="#workshops" className="absolute top-[430px] text-xl text-white font-semibold right-[40px]">كـمل مـن هـنا</Link>
         <Link
-        id="workshops"
+          id="workshops"
           href="/workshops"
           className="absolute top-[630px] right-[10px] h-[190px] w-[200px]"
         ></Link>
@@ -40,7 +40,19 @@ export default async function page() {
           className="absolute bottom-8 right-[800px] h-[315px] w-[350px]"
         ></Link>
       </div>
-  
+      <div className="footer absolute w-[1728px] py-5 text-center bg-[#cfecf0] text-sm">
+        <p className="text-gray-500">
+          A project by {" "}
+          <a
+            className="font-semibold text-gray-600 underline-offset-4 transition-colors hover:underline"
+            href="https://imayce.com"
+            target="_blank"
+            rel="noopener noreferrer"
+          >
+            MAYS AL-AZZAWI
+          </a>
+        </p>
+      </div>
     </>
   );
 }
