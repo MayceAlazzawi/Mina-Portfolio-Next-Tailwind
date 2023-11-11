@@ -40,6 +40,29 @@ export default async function page() {
           className="absolute bottom-8 right-[800px] h-[315px] w-[350px]"
         ></Link>
       </div>
+      <div className="absolute w-full py-5 text-center bg-[#cfecf0]">
+      <p className="text-gray-500">
+        A project by{" "}
+        <a
+          className="font-semibold text-gray-600 underline-offset-4 transition-colors hover:underline"
+          href="https://www.linkedin.com/in/mays-al-azzawi-58912a1a8/"
+          target="_blank"
+          rel="noopener noreferrer"
+        >
+          MAYS AL-AZZAWI
+        </a>
+      </p>
+      <a
+        // href="https://www.buymeacoffee.com/steventey"
+        href="https://imayce.com"
+        target="_blank"
+        rel="noopener noreferrer"
+        className="mx-auto mt-2 flex max-w-fit items-center justify-center space-x-2 rounded-lg border border-gray-200 bg-white px-6 py-2 transition-all duration-75 hover:scale-105 bg-[#fed676] text-[#4b5563]"
+      >
+        {/* <BuyMeACoffee className="h-6 w-6" /> */}
+       imayce.com
+      </a>
+    </div>
     </>
   );
 }
