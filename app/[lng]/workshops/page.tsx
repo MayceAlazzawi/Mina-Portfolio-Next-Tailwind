@@ -211,7 +211,7 @@ export default function workshops({ params: { lng } }: Props) {
         </div>
       </div>
       <div className="absolute w-full py-5 text-center bg-[#f5c6c1] text-sm">
-      <p className="text-gray-500">
+      <p className="text-gray-500 text-sm">
         A project by{" "}
         <a
           className="font-semibold text-gray-600 underline-offset-4 transition-colors hover:underline text-sm"

@@ -52,19 +52,7 @@ export default async function page() {
           className="absolute bottom-8 right-[800px] h-[315px] w-[350px]"
         ></Link>
       </div>
-      <div className="footer hidden lg:block absolute w-[1728px] py-5 text-center bg-[#cfecf0] text-sm">
-        <p className="text-gray-500">
-          A project by {" "}
-          <a
-            className="font-semibold text-gray-600 underline-offset-4 transition-colors hover:underline"
-            href="https://imayce.com"
-            target="_blank"
-            rel="noopener noreferrer"
-          >
-            MAYS AL-AZZAWI
-          </a>
-        </p>
-      </div>
+      
     </>
   );
 }
