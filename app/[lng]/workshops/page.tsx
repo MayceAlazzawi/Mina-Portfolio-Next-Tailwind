@@ -41,7 +41,7 @@ export default function workshops({ params: { lng } }: Props) {
             alt=""
             className="mt-5"
           />
-          <Link href="https://airtable.com/appioMft3okdtHit4/shrmUybPqKMncCItz" target="_blank">
+          <Link href="https://airtable.com/appioMft3okdtHit4/shrh9oE7RNEooQHOK" target="_blank">
             <div className='registerBtn relative'>
               <Image
                 src="/assets/images/btn2.png"
@@ -85,7 +85,7 @@ export default function workshops({ params: { lng } }: Props) {
             alt=""
             className="my-5"
           />
-          <Link href="https://airtable.com/appioMft3okdtHit4/shrpqDeazEFmxITsR" target="_blank">
+          <Link href="https://airtable.com/appioMft3okdtHit4/shrFfMs6BtndZJcKK" target="_blank">
             <div className='registerBtn relative'>
               <Image
                 src="/assets/images/btn2.png"
