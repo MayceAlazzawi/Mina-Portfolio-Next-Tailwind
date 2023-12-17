@@ -86,7 +86,7 @@ export default function workshops({ params: { lng } }: Props) {
             className="my-5"
           />
           <Link href="https://airtable.com/appioMft3okdtHit4/shrFfMs6BtndZJcKK" target="_blank">
-            <div className='registerBtn relative'>
+            <div className='registerBtn relative '>
               <Image
                 src="/assets/images/btn2.png"
                 alt=""
