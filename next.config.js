@@ -10,6 +10,10 @@ const nextConfig = {
         source: '/en/hand',
         destination: '/en/hand.html',
       },
+       {
+        source: '/en/monthly',
+        destination: '/en/monthly.html',
+      },
     ]
   }
 }
